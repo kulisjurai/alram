@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, rgb(47, 57, 59), rgb(82, 45, 150));
+}
+body {
+    padding-top: 20vh;
+    padding-left: 38vw;
+
+}
+.brojevi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 160, 37);
+    width: 35%;
+    height: 5vw;
+    font-size: 4em;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+    color: rgb(72, 39, 133);
+    
+}
+button {
+    width: 50px;
+    height: 25px;
+    background-color: rgb(241, 160, 37);
+    cursor: pointer;
+    border-style: solid 1px;
+    border-style: solid;
+}
+button:hover {
+    background-color: rgb(252, 193, 46); 
+}
+.buttons{
+    display: flex;
+    margin-top: 15px;
+   
+}
+button:focus { outline: none; }
+
+.a {
+    padding-left: 60px;
+    
+}
+.b{
+    padding-left: 20px;
+}
+#set {
+    width: 23%;
+    background-color: darkslateblue;
+    color: white;
+    height: 45px;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-family: raleway;
+    font-size: large;
+    cursor: pointer;
+    z-index: 1;
+}
+#set:hover, #stop:hover {
+    background-color: rgb(71, 51, 202)
+}
+#stop {
+    position: relative;
+    right: 283px;
+    width: 23%;
+    background-color: darkslateblue;
+    color: white;
+    height: 45px;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-family: raleway;
+    font-size: large;
+    cursor: pointer;
+    z-index: -1;
+}
